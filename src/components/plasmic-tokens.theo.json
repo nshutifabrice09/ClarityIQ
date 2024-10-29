@@ -1,0 +1,129 @@
+{
+  "props": [
+    {
+      "name": "Page Section Row Height",
+      "type": "spacing",
+      "value": "700px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "Rt69uXGPJfya"
+      }
+    },
+    {
+      "name": "dark link",
+      "type": "color",
+      "value": "#2997FF",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "ySpWC4OFYuhj"
+      }
+    },
+    {
+      "name": "footer-bg",
+      "type": "color",
+      "value": "#F5F5F7",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "akUebpYY-YX_"
+      }
+    },
+    {
+      "name": "hr",
+      "type": "color",
+      "value": "#D2D2D7",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "-zZHDd5K3prQ"
+      }
+    },
+    {
+      "name": "hr 2",
+      "type": "color",
+      "value": "#D2D2D7",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "NWN8oBkxjaVw"
+      }
+    },
+    {
+      "name": "light text",
+      "type": "color",
+      "value": "#E7E7E7",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "EYWny9Qy9pzR"
+      }
+    },
+    {
+      "name": "link",
+      "type": "color",
+      "value": "#0066CC",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "AujgN1lJyvzG"
+      }
+    },
+    {
+      "name": "paragraph-gap",
+      "type": "spacing",
+      "value": "10px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "-vQPKEUrUOCn"
+      }
+    },
+    {
+      "name": "slider height",
+      "type": "spacing",
+      "value": "7px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "q34CLmKb1D7D"
+      }
+    },
+    {
+      "name": "text small",
+      "type": "fontsize",
+      "value": "12px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "fCTC9P6p5xyQ"
+      }
+    },
+    {
+      "name": "text-footer",
+      "type": "color",
+      "value": "#6E6E73",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "y4o7y0qVr0Kr"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "id": "g43Npkdd_fag"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

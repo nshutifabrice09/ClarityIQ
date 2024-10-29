@@ -1,0 +1,1386 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
+      "projectApiToken": "L5kqyh9xqKCqpdc8gqCglVcLZTxdkkP1Dt9pLUlWpyKVItIbbXr5272ePgMpZZiezhSe0AIOuQB353jQnw",
+      "projectName": "plasmic-cms",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_cms/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_cms/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "w6HdOz-Pcn",
+          "name": "CmsRowField",
+          "displayName": "hostless-plasmic-cms-row-field",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "Ds6UdKRHmq",
+          "name": "CmsRowLink",
+          "displayName": "hostless-plasmic-cms-row-link",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "dj_Vc2QmFA",
+          "name": "CmsRowImage",
+          "displayName": "hostless-plasmic-cms-row-image",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "r3UO4W-xcR",
+          "name": "CmsRowFieldValue",
+          "displayName": "hostless-plasmic-cms-row-value",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "OREVbGCcgN",
+          "name": "CmsCredentialsProvider",
+          "displayName": "hostless-plasmic-cms-credentials-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8N9-WfZSaq",
+          "name": "CmsQueryRepeater",
+          "displayName": "hostless-plasmic-cms-query-repeater",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8uEaibqi6348",
+          "name": "CmsCount",
+          "displayName": "hostless-plasmic-cms-count",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_slick/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "SliderWrapper",
+          "displayName": "hostless-slider",
+          "componentImportPath": "@plasmicpkgs/react-slick",
+          "helper": {
+            "name": "sliderHelpers",
+            "importPath": "@plasmicpkgs/react-slick"
+          }
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+      "projectApiToken": "JT9LnSAsIZwkwCeDgTeU6tRef6EvfxW45W3IFAa9plWFAVYNsXcqR1hGu7d4Q7tJB52Q2wafyuwniWGBTqkINQ",
+      "projectName": "Mayfair - ClarityIQ",
+      "version": "latest",
+      "cssFilePath": "plasmic/mayfair_clarity_iq/plasmic.module.css",
+      "components": [
+        {
+          "id": "BfO3nDBp8Oix",
+          "name": "Dashboard",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicDashboard.tsx",
+          "importSpec": {
+            "modulePath": "Dashboard.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicDashboard.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/dashboard"
+        },
+        {
+          "id": "bOVMjRHTrPdH",
+          "name": "Dinaggregation",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicDinaggregation.tsx",
+          "importSpec": {
+            "modulePath": "Dinaggregation.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicDinaggregation.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
+        },
+        {
+          "id": "dz-IFOlVs6PO",
+          "name": "Financialperformance",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicFinancialperformance.tsx",
+          "importSpec": {
+            "modulePath": "Financialperformance.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicFinancialperformance.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/financialperformance"
+        },
+        {
+          "id": "VvotYizFBmnv",
+          "name": "Workflows",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicWorkflows.tsx",
+          "importSpec": {
+            "modulePath": "Workflows.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicWorkflows.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/workflows"
+        },
+        {
+          "id": "kyWT_9h4mbNJ",
+          "name": "Customerinsights",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicCustomerinsights.tsx",
+          "importSpec": {
+            "modulePath": "Customerinsights.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicCustomerinsights.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/customerinsights"
+        },
+        {
+          "id": "qjjd9G4j-a7z",
+          "name": "Financialperformancea",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicFinancialperformancea.tsx",
+          "importSpec": {
+            "modulePath": "Financialperformancea.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicFinancialperformancea.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/financialperformancea"
+        },
+        {
+          "id": "683sdCfd7Lk_",
+          "name": "Marketncompetitive",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicMarketncompetitive.tsx",
+          "importSpec": {
+            "modulePath": "Marketncompetitive.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicMarketncompetitive.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/marketncompetitive"
+        },
+        {
+          "id": "TQZOP_3GQiHg",
+          "name": "Competitiveintelligence",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicCompetitiveintelligence.tsx",
+          "importSpec": {
+            "modulePath": "Competitiveintelligence.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicCompetitiveintelligence.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "M_56sC0DnRJO",
+          "name": "Riskidentification",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicRiskidentification.tsx",
+          "importSpec": {
+            "modulePath": "Riskidentification.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicRiskidentification.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/riskidentification"
+        },
+        {
+          "id": "mrfDLG5qjXtW",
+          "name": "Riskmanagement",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicRiskmanagement.tsx",
+          "importSpec": {
+            "modulePath": "Riskmanagement.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicRiskmanagement.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WW5gG1G_k2_8",
+          "name": "Decisionsupport",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicDecisionsupport.tsx",
+          "importSpec": {
+            "modulePath": "Decisionsupport.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicDecisionsupport.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/decisionsupport"
+        },
+        {
+          "id": "s_yP0CQ6Gbqb",
+          "name": "Ourcommunity",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicOurcommunity.tsx",
+          "importSpec": {
+            "modulePath": "Ourcommunity.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicOurcommunity.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/ourcommunity"
+        },
+        {
+          "id": "M-lOIdIf7bAe",
+          "name": "Signin",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicSignin.tsx",
+          "importSpec": {
+            "modulePath": "Signin.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicSignin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/signin"
+        },
+        {
+          "id": "XnV5QBIK7FFr",
+          "name": "Signup",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicSignup.tsx",
+          "importSpec": {
+            "modulePath": "Signup.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicSignup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/signup"
+        },
+        {
+          "id": "NnxBKDAEKL2O",
+          "name": "Paymentform",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicPaymentform.tsx",
+          "importSpec": {
+            "modulePath": "Paymentform.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicPaymentform.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NB8kRS4-EAc3",
+          "name": "Secondworkflow",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicSecondworkflow.tsx",
+          "importSpec": {
+            "modulePath": "Secondworkflow.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicSecondworkflow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZtX7ZBalZ-ss",
+          "name": "Customeranalytics",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicCustomeranalytics.tsx",
+          "importSpec": {
+            "modulePath": "Customeranalytics.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicCustomeranalytics.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GXUwSSJc-WMF",
+          "name": "Kpireports",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicKpireports.tsx",
+          "importSpec": {
+            "modulePath": "Kpireports.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicKpireports.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8QFBCeDeJFH_",
+          "name": "Adddata",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicAdddata.tsx",
+          "importSpec": {
+            "modulePath": "Adddata.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicAdddata.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "DjhgvGvX0bRM",
+          "name": "Seconddataintegration",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicSeconddataintegration.tsx",
+          "importSpec": {
+            "modulePath": "Seconddataintegration.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicSeconddataintegration.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kIJNL8u7s-S8",
+          "name": "Secondfinancialperformance",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicSecondfinancialperformance.tsx",
+          "importSpec": {
+            "modulePath": "Secondfinancialperformance.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicSecondfinancialperformance.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gv0Q_KziB627",
+          "name": "Thirdfinancialperformance",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicThirdfinancialperformance.tsx",
+          "importSpec": {
+            "modulePath": "Thirdfinancialperformance.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicThirdfinancialperformance.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "C8nCeG_RAdS-",
+          "name": "Fourthfinancialperformance",
+          "type": "managed",
+          "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+          "renderModuleFilePath": "plasmic/mayfair_clarity_iq/PlasmicFourthfinancialperformance.tsx",
+          "importSpec": {
+            "modulePath": "Fourthfinancialperformance.tsx"
+          },
+          "cssFilePath": "plasmic/mayfair_clarity_iq/PlasmicFourthfinancialperformance.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "YO-FZBPb9a96",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "unzRWPJGB826",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "z_gfdGi7TIQr",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "FOd2bucG8VGj",
+          "name": "BaselineAppleSvgIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__BaselineAppleSvg.tsx"
+        },
+        {
+          "id": "50K3RK-BrDKK",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "M2NkimAvVgC0",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "RWqu0RNgE7Ts",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon6.tsx"
+        },
+        {
+          "id": "-KUutsXtXjlF",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon7.tsx"
+        },
+        {
+          "id": "EB15DzBtrjV5",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon8.tsx"
+        },
+        {
+          "id": "FDgbNmdQcGD2",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon9.tsx"
+        },
+        {
+          "id": "ubdmTfcvcYgO",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon10.tsx"
+        },
+        {
+          "id": "txBGWn8vldlK",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Icon11.tsx"
+        },
+        {
+          "id": "yY_Xh4fGKtqL",
+          "name": "QuestionMark1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__QuestionMark1.tsx"
+        },
+        {
+          "id": "n9zUMqSDbSlh",
+          "name": "Bell1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Bell1.tsx"
+        },
+        {
+          "id": "oIoWRcUyEgWn",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Search.tsx"
+        },
+        {
+          "id": "zToZXXJTB9dc",
+          "name": "Layout11Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Layout11.tsx"
+        },
+        {
+          "id": "90X0AxWg__s9",
+          "name": "FolderIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Folder.tsx"
+        },
+        {
+          "id": "hCmqTbEa_XEh",
+          "name": "Line1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line1.tsx"
+        },
+        {
+          "id": "5cySklPsBu5b",
+          "name": "FarmerMarketIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__FarmerMarket.tsx"
+        },
+        {
+          "id": "c4V_2BCP5vb8",
+          "name": "CalendarIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Calendar.tsx"
+        },
+        {
+          "id": "6b5_xU8yWQFY",
+          "name": "FChatIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__FChat.tsx"
+        },
+        {
+          "id": "ZYZreGho0u9b",
+          "name": "CandlestickChartIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__CandlestickChart.tsx"
+        },
+        {
+          "id": "6QYFPKXZ9GqK",
+          "name": "WhiskersIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Whiskers.tsx"
+        },
+        {
+          "id": "USBnaJoUy1KG",
+          "name": "CurrencyDollar1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__CurrencyDollar1.tsx"
+        },
+        {
+          "id": "6kUOcHOYzusH",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "99I2RlQV67k2",
+          "name": "FrameIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame.tsx"
+        },
+        {
+          "id": "LK1XmH1YC1N6",
+          "name": "ArrowUp1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ArrowUp1.tsx"
+        },
+        {
+          "id": "dFXdcIaHC61R",
+          "name": "Calendar2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Calendar2.tsx"
+        },
+        {
+          "id": "MF4N_3wKmh_O",
+          "name": "ChevronDownLargeIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChevronDownLarge.tsx"
+        },
+        {
+          "id": "d-ag9IpbSnw-",
+          "name": "ChevronLeftLargeIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChevronLeftLarge.tsx"
+        },
+        {
+          "id": "7KzZjpFqGdS5",
+          "name": "Menu5Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Menu5.tsx"
+        },
+        {
+          "id": "VaHzNZUH3H4M",
+          "name": "ChevronRightLargeIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChevronRightLarge.tsx"
+        },
+        {
+          "id": "LV7HMvfyS4Un",
+          "name": "FunnelIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Funnel.tsx"
+        },
+        {
+          "id": "dE6pqSHD6AWY",
+          "name": "EditAltIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__EditAlt.tsx"
+        },
+        {
+          "id": "oBXrHBt942Or",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "QnHOpjV_SKMJ",
+          "name": "Menu51Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Menu51.tsx"
+        },
+        {
+          "id": "OL9uoJ4OqaKE",
+          "name": "EllipseIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Ellipse.tsx"
+        },
+        {
+          "id": "b_URD0RDolM4",
+          "name": "Line40Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line40.tsx"
+        },
+        {
+          "id": "1TncPJBB8TCk",
+          "name": "Search2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Search2.tsx"
+        },
+        {
+          "id": "dScs6CDelQTJ",
+          "name": "ChevronDownLarge2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChevronDownLarge2.tsx"
+        },
+        {
+          "id": "CD78SRU0B9P7",
+          "name": "FilterListIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__FilterList.tsx"
+        },
+        {
+          "id": "0-AgzpxQF9ix",
+          "name": "DownloadIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Download.tsx"
+        },
+        {
+          "id": "4dzxyHkIUjrn",
+          "name": "MoveUpIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__MoveUp.tsx"
+        },
+        {
+          "id": "9QkXy6ncjB5o",
+          "name": "Trash1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Trash1.tsx"
+        },
+        {
+          "id": "feyJyS1uEQrJ",
+          "name": "Pen1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Pen1.tsx"
+        },
+        {
+          "id": "j_ceVuGf9L77",
+          "name": "Frame2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame2.tsx"
+        },
+        {
+          "id": "po1Da24WvXgn",
+          "name": "EAddIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__EAdd.tsx"
+        },
+        {
+          "id": "30zyGFeQWZh_",
+          "name": "ChevronLeftLarge2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChevronLeftLarge2.tsx"
+        },
+        {
+          "id": "lfzhQMhY_L3d",
+          "name": "Menu6Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Menu6.tsx"
+        },
+        {
+          "id": "JVVd5LzXaNie",
+          "name": "ChevronRightLarge2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChevronRightLarge2.tsx"
+        },
+        {
+          "id": "TG8NH336Lsj7",
+          "name": "ERemove2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ERemove2.tsx"
+        },
+        {
+          "id": "_8JbPW7aiK1X",
+          "name": "Frame3Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame3.tsx"
+        },
+        {
+          "id": "nBUziPG46gYl",
+          "name": "Frame4Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame4.tsx"
+        },
+        {
+          "id": "A148KabLuPgZ",
+          "name": "MoveLayerDownIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__MoveLayerDown.tsx"
+        },
+        {
+          "id": "ViNFcDUPTBdf",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "GBaIK6FJo1uv",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "y3c0QzAMnltS",
+          "name": "Group5Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group5.tsx"
+        },
+        {
+          "id": "UNC_TZ7FdyKN",
+          "name": "Frame5Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame5.tsx"
+        },
+        {
+          "id": "hWY4A_MTPGsG",
+          "name": "Frame6Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame6.tsx"
+        },
+        {
+          "id": "bvGS2kEj_MJr",
+          "name": "Frame7Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame7.tsx"
+        },
+        {
+          "id": "kXoKaz70RBGE",
+          "name": "Frame8Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame8.tsx"
+        },
+        {
+          "id": "qh2IuhUtAaLU",
+          "name": "Frame9Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame9.tsx"
+        },
+        {
+          "id": "qBXsqZxBf273",
+          "name": "Frame10Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame10.tsx"
+        },
+        {
+          "id": "eCKC8t8YL-EL",
+          "name": "AppStoreIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__AppStore.tsx"
+        },
+        {
+          "id": "VUS57T8vMHVg",
+          "name": "ChartBar33Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ChartBar33.tsx"
+        },
+        {
+          "id": "ypcdUL6l5yom",
+          "name": "Search3Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Search3.tsx"
+        },
+        {
+          "id": "0RZKNW_B9hOX",
+          "name": "Help1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Help1.tsx"
+        },
+        {
+          "id": "7sVE2sTKpTbi",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Ellipse2.tsx"
+        },
+        {
+          "id": "yPnb2-47kSa1",
+          "name": "Line19Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line19.tsx"
+        },
+        {
+          "id": "iW6gDtSCOsOa",
+          "name": "Frame11Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame11.tsx"
+        },
+        {
+          "id": "kI0letG9xEg1",
+          "name": "Line24Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line24.tsx"
+        },
+        {
+          "id": "HjzhfjuGX-1j",
+          "name": "Frame12Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame12.tsx"
+        },
+        {
+          "id": "OR2emMtfEHvS",
+          "name": "Line25Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line25.tsx"
+        },
+        {
+          "id": "dF5gA1IINKoe",
+          "name": "Line30Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line30.tsx"
+        },
+        {
+          "id": "eJzxYIWUJGCN",
+          "name": "MailIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Mail.tsx"
+        },
+        {
+          "id": "0jR7aPTrU-WU",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group6.tsx"
+        },
+        {
+          "id": "0OBtqVU7rnGp",
+          "name": "Group7Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group7.tsx"
+        },
+        {
+          "id": "negmLw9Lahn0",
+          "name": "Group8Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group8.tsx"
+        },
+        {
+          "id": "n7dWUzZcXnah",
+          "name": "Group9Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group9.tsx"
+        },
+        {
+          "id": "zwNBCeTF11Yl",
+          "name": "Group10Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group10.tsx"
+        },
+        {
+          "id": "zdv3NGeyNFLF",
+          "name": "Group11Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group11.tsx"
+        },
+        {
+          "id": "yDlgbJ3RlFD9",
+          "name": "Group12Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group12.tsx"
+        },
+        {
+          "id": "LK_4Rog76YJR",
+          "name": "Group13Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group13.tsx"
+        },
+        {
+          "id": "0NnTZcIzEmqS",
+          "name": "Group14Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group14.tsx"
+        },
+        {
+          "id": "pvytRA2nWTFy",
+          "name": "Group15Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group15.tsx"
+        },
+        {
+          "id": "-QphWdu4LOoB",
+          "name": "Group16Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group16.tsx"
+        },
+        {
+          "id": "SXeyP55Srhpg",
+          "name": "Group17Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group17.tsx"
+        },
+        {
+          "id": "mbAvXjogMfuE",
+          "name": "Group18Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group18.tsx"
+        },
+        {
+          "id": "bCB2QDFUTpjq",
+          "name": "Group19Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group19.tsx"
+        },
+        {
+          "id": "YvfMhLDmUC_j",
+          "name": "Group20Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group20.tsx"
+        },
+        {
+          "id": "wIk9TB_CYxzT",
+          "name": "Group21Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group21.tsx"
+        },
+        {
+          "id": "cHuLe7oK0FCN",
+          "name": "ArrowRightIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__ArrowRight.tsx"
+        },
+        {
+          "id": "9qnswPHCS8Yn",
+          "name": "Oval7Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Oval7.tsx"
+        },
+        {
+          "id": "STi0_H4_JaFj",
+          "name": "Oval8Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Oval8.tsx"
+        },
+        {
+          "id": "EUBBmv06f6kG",
+          "name": "HideIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Hide.tsx"
+        },
+        {
+          "id": "wlA3qDnex-jr",
+          "name": "AppleIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Apple.tsx"
+        },
+        {
+          "id": "qLxbwT6f_D5u",
+          "name": "LogoFacebookIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__LogoFacebook.tsx"
+        },
+        {
+          "id": "ta-PA2-2tho8",
+          "name": "GoogleIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Google.tsx"
+        },
+        {
+          "id": "uOlqWmdySWqH",
+          "name": "Frame13Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Frame13.tsx"
+        },
+        {
+          "id": "uhb9tZ47tTxF",
+          "name": "Group22Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group22.tsx"
+        },
+        {
+          "id": "9rbNvo5iq4ng",
+          "name": "Group23Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group23.tsx"
+        },
+        {
+          "id": "_eh5SCK6bltj",
+          "name": "Group24Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group24.tsx"
+        },
+        {
+          "id": "WZ23QFlGCtfi",
+          "name": "Group25Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group25.tsx"
+        },
+        {
+          "id": "d09v7uLeDMdd",
+          "name": "Group26Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group26.tsx"
+        },
+        {
+          "id": "awy9ATn3wi_d",
+          "name": "Group27Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group27.tsx"
+        },
+        {
+          "id": "NpYIUrEHUBa7",
+          "name": "Brush1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Brush1.tsx"
+        },
+        {
+          "id": "tEls3GRbR9PV",
+          "name": "Menu52Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Menu52.tsx"
+        },
+        {
+          "id": "tBMAHHsP4quX",
+          "name": "Code1Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Code1.tsx"
+        },
+        {
+          "id": "YQScP_wAScQF",
+          "name": "Google2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Google2.tsx"
+        },
+        {
+          "id": "uPUMKKVvDoUo",
+          "name": "LogoFacebook2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__LogoFacebook2.tsx"
+        },
+        {
+          "id": "WKllfZf1xhG0",
+          "name": "Apple2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Apple2.tsx"
+        },
+        {
+          "id": "EFotQCZkiy00",
+          "name": "Line39Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line39.tsx"
+        },
+        {
+          "id": "IVvWcsL9WC-I",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "p3C_jR3V7x0F",
+          "name": "Calendar3Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Calendar3.tsx"
+        },
+        {
+          "id": "iMP_eYOq2_jl",
+          "name": "Group28Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group28.tsx"
+        },
+        {
+          "id": "K3N4dkayluwp",
+          "name": "Group29Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group29.tsx"
+        },
+        {
+          "id": "Ut7kKC-LXcxL",
+          "name": "Group30Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group30.tsx"
+        },
+        {
+          "id": "WyDwLf9NRq7C",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "4IJCrAtMVMu5",
+          "name": "CaretRightIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__CaretRight.tsx"
+        },
+        {
+          "id": "zf9IrrU7pd4v",
+          "name": "Line8Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Line8.tsx"
+        },
+        {
+          "id": "5aTSGxf42rK6",
+          "name": "PenIcon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Pen.tsx"
+        },
+        {
+          "id": "UmgPQiVVvGM7",
+          "name": "Group31Icon",
+          "moduleFilePath": "plasmic/mayfair_clarity_iq/icons/PlasmicIcon__Group31.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "_ykjKmjIZZHx",
+          "name": "hero_macbook_air_15_midnight__ct0pgwizvree_mediumtall_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/heroMacbookAir15MidnightCt0PgwizvreeMediumtall2XJpg.jpg"
+        },
+        {
+          "id": "ojLTkp3DxWdO",
+          "name": "hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/heroIphone14ProSpring9Xo85Pm6SbmmMediumtall2XJpg.jpg"
+        },
+        {
+          "id": "Zn04-Nh3MSBC",
+          "name": "hero_iphone14_yellow__eun20sn4imi6_mediumtall_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/heroIphone14YellowEun20Sn4Imi6Mediumtall2XJpg.jpg"
+        },
+        {
+          "id": "BnI9Drg-7Ywq",
+          "name": "hero_iphone14pro_spring__9xo85pm6sbmm_largetall_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/heroIphone14ProSpring9Xo85Pm6SbmmLargetall2XJpg.jpg"
+        },
+        {
+          "id": "JIBf90C2N6Bv",
+          "name": "promo_bts2023_startframe__exvt2t1iuxme_large_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/promoBts2023StartframeExvt2T1IuxmeLarge2XJpg.jpg"
+        },
+        {
+          "id": "4NZiRaaCkoSI",
+          "name": "promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/promoAppleWatchSeries8SpringD9Hfvufh7HyuLarge2XJpg.jpg"
+        },
+        {
+          "id": "OMCZb-Cp0L9k",
+          "name": "promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/promoAppleVisionProF4V4Zp0Sum2YLarge2XJpg.jpg"
+        },
+        {
+          "id": "7GUE3u9Ao_ZB",
+          "name": "iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/iphoneTradeinPromoD5Au3Rkw5KuqLarge2XJpg.jpg"
+        },
+        {
+          "id": "zx8ITfp5znX_",
+          "name": "promo_apple_news_womens_world_cup__f72j3grkhguq_large_2x.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/promoAppleNewsWomensWorldCupF72J3GrkhguqLarge2XJpg.jpg"
+        },
+        {
+          "id": "3R3hbmi7M7Wo",
+          "name": "tile__cauwwcyyn9hy_large_2x (1).jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/tileCauwwcyyn9HyLarge2X1Jpg.jpg"
+        },
+        {
+          "id": "J3RRlCe07L6K",
+          "name": "hero_macbook_air_15_midnight__ct0pgwizvree_small.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/heroMacbookAir15MidnightCt0PgwizvreeSmallJpg.jpg"
+        },
+        {
+          "id": "BP4-SkKqvg_o",
+          "name": "hero_iphone14_yellow__eun20sn4imi6_small.jpg",
+          "filePath": "plasmic/mayfair_clarity_iq/images/heroIphone14YellowEun20Sn4Imi6SmallJpg.jpg"
+        },
+        {
+          "id": "iUPJFkjZ57yn",
+          "name": "image",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image.png"
+        },
+        {
+          "id": "zlNscbzWyBV4",
+          "name": "Image 19",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image19.png"
+        },
+        {
+          "id": "n3T1aJklBatE",
+          "name": "Rectangle",
+          "filePath": "plasmic/mayfair_clarity_iq/images/rectangle.png"
+        },
+        {
+          "id": "oh-N24H6jyl0",
+          "name": "Image 3",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image3.jpg"
+        },
+        {
+          "id": "8ZE0ByYCStb0",
+          "name": "Image 4",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image4.jpg"
+        },
+        {
+          "id": "RT8T6nkpz3Qc",
+          "name": "Chart",
+          "filePath": "plasmic/mayfair_clarity_iq/images/chart.svg"
+        },
+        {
+          "id": "GMXmAsqOHcRp",
+          "name": "Rectangle 2",
+          "filePath": "plasmic/mayfair_clarity_iq/images/rectangle2.png"
+        },
+        {
+          "id": "TC19ht3B2bNW",
+          "name": "Chart 2",
+          "filePath": "plasmic/mayfair_clarity_iq/images/chart2.svg"
+        },
+        {
+          "id": "Wlg2h3Gk_Qgc",
+          "name": "Chart 3",
+          "filePath": "plasmic/mayfair_clarity_iq/images/chart3.svg"
+        },
+        {
+          "id": "ISYeghQcAIbg",
+          "name": "image 1",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image1.png"
+        },
+        {
+          "id": "1yQyVw9wVTuB",
+          "name": "Chart 4",
+          "filePath": "plasmic/mayfair_clarity_iq/images/chart4.svg"
+        },
+        {
+          "id": "a8Mp5rmyPCw5",
+          "name": "Chart 5",
+          "filePath": "plasmic/mayfair_clarity_iq/images/chart5.svg"
+        },
+        {
+          "id": "Xe2Q0DMSe6gy",
+          "name": "Chart 6",
+          "filePath": "plasmic/mayfair_clarity_iq/images/chart6.svg"
+        },
+        {
+          "id": "udkkVQHcPkN8",
+          "name": "Oval 1",
+          "filePath": "plasmic/mayfair_clarity_iq/images/oval1.svg"
+        },
+        {
+          "id": "F9NGlvk6RmTc",
+          "name": "Switch 1",
+          "filePath": "plasmic/mayfair_clarity_iq/images/switch1.svg"
+        },
+        {
+          "id": "joRCRAyEv4xb",
+          "name": "Oval 2",
+          "filePath": "plasmic/mayfair_clarity_iq/images/oval2.svg"
+        },
+        {
+          "id": "IS83kmaqJKLy",
+          "name": "Image 2",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image2.png"
+        },
+        {
+          "id": "W1Iy9DtJirK1",
+          "name": "Image 6",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image6.png"
+        },
+        {
+          "id": "swN_M3SahNsl",
+          "name": "Image 62",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image62.jpg"
+        },
+        {
+          "id": "DAJ8fsn1XFgg",
+          "name": "Image 71",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image71.jpg"
+        },
+        {
+          "id": "DIOU7g_rbx0I",
+          "name": "Image 72",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image72.jpg"
+        },
+        {
+          "id": "kByST8X6aZyg",
+          "name": "Image 73",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image73.jpg"
+        },
+        {
+          "id": "iY1Z0idp_JFx",
+          "name": "Image 74",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image74.jpg"
+        },
+        {
+          "id": "KUE_C19JozIq",
+          "name": "Image 75",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image75.jpg"
+        },
+        {
+          "id": "JLPgTfwOB4ps",
+          "name": "Image 76",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image76.jpg"
+        },
+        {
+          "id": "W9NlpFxBfRw3",
+          "name": "Image 77",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image77.jpg"
+        },
+        {
+          "id": "YQ29b_jly8Ep",
+          "name": "Rectangle 79",
+          "filePath": "plasmic/mayfair_clarity_iq/images/rectangle79.jpg"
+        },
+        {
+          "id": "LL1F8yY4eIll",
+          "name": "Rectangle 78",
+          "filePath": "plasmic/mayfair_clarity_iq/images/rectangle78.svg"
+        },
+        {
+          "id": "Mk2qN2FQ6JIh",
+          "name": "Rectangle 80",
+          "filePath": "plasmic/mayfair_clarity_iq/images/rectangle80.jpg"
+        },
+        {
+          "id": "wYGTEhDo-9R9",
+          "name": "Resizing handle",
+          "filePath": "plasmic/mayfair_clarity_iq/images/resizingHandle.svg"
+        },
+        {
+          "id": "zKdbeJbQ5Yjr",
+          "name": "Image 8",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image8.png"
+        },
+        {
+          "id": "T32SUEFIksB3",
+          "name": "Image 5",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image5.png"
+        },
+        {
+          "id": "hDSxZOqPaUYy",
+          "name": "Image 9",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image9.png"
+        },
+        {
+          "id": "q4E9bDOxhnBO",
+          "name": "Image 12",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image12.png"
+        },
+        {
+          "id": "FuVm4Hiws30f",
+          "name": "Image 10",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image10.png"
+        },
+        {
+          "id": "rGOByT9eGnUm",
+          "name": "Image 13",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image13.png"
+        },
+        {
+          "id": "JsLJkAS_1TMg",
+          "name": "Image 11",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image11.png"
+        },
+        {
+          "id": "Gb_vmSaCo9-O",
+          "name": "Image 14",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image14.png"
+        },
+        {
+          "id": "dvAe8NAfD_gd",
+          "name": "Image 17",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image17.png"
+        },
+        {
+          "id": "RJV_GjmXpNgC",
+          "name": "Image 15",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image15.png"
+        },
+        {
+          "id": "zhhnPZTSoVoW",
+          "name": "Image 16",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image16.png"
+        },
+        {
+          "id": "W823nuCsjKyj",
+          "name": "Image 18",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image18.png"
+        },
+        {
+          "id": "ZN2wzDn-Ilqo",
+          "name": "Image 22",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image22.png"
+        },
+        {
+          "id": "AAyncJIA6sw5",
+          "name": "Image 21",
+          "filePath": "plasmic/mayfair_clarity_iq/images/image21.png"
+        },
+        {
+          "id": "w49CoVsCtl1J",
+          "name": "Resizing handle 2",
+          "filePath": "plasmic/mayfair_clarity_iq/images/resizingHandle2.svg"
+        },
+        {
+          "id": "HjPreqQ-Rvos",
+          "name": "Resizing handle 3",
+          "filePath": "plasmic/mayfair_clarity_iq/images/resizingHandle3.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/mayfair_clarity_iq/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "Dfqt5VUoKa-f",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "IFyAABUSTYva",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "LfST8DaFhU_V",
+        "name": "Screen",
+        "projectId": "bVumzfkpaXXcvNmP8r5aNd",
+        "contextFilePath": "plasmic/mayfair_clarity_iq/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
