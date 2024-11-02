@@ -1,4 +1,4 @@
-.root {
+/* .root {
   display: grid;
   flex-direction: column;
   position: relative;
@@ -20,6 +20,12 @@
 }
 .root > * {
   grid-column: 4;
+} */
+
+.dynamicSection {
+  position: relative; 
+  top: 100px; 
+  left: 300px;
 }
 .wireframe8 {
   background: rgba(255, 255, 255, 1);
@@ -159,8 +165,8 @@
   display: block;
   transform-origin: top left;
   position: absolute;
-  top: 16px;
-  right: 159px;
+  top: 100px;
+  right: 260px;
   overflow: hidden;
   border-radius: 4px;
 }
@@ -868,7 +874,7 @@
   display: block;
   position: absolute;
   top: 178px;
-  left: 282px;
+  left: 22px;
   overflow: hidden;
   border-radius: 4px;
 }

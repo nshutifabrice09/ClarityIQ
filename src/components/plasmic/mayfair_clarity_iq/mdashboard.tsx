@@ -92,6 +92,11 @@ import DashboardSection from "./mdashboardsection";
 import Dinaggregation, { PlasmicDinaggregation } from "./mdinaggregation";
 import Thirdfinancialperformance from "../../Thirdfinancialperformance";
 import PlasmicWorkflows from "./mbusinessprocess";
+import PlasmicCustomerinsights from "./mcustomerinsights";
+import PlasmicFinancialperformance from "./mfinancialperformance";
+import PlasmicMarketncompetitive from "./mmarketncompetitive";
+import PlasmicRiskidentification from "./mriskidentification";
+import PlasmicDecisionsupport from "./PlasmicDecisionsupport";
 //import { useNavigation } from "./NavigationContext";
 //import Thirdfinancialperformance from "../../Thirdfinancialperformance";
 //import { useRouter } from "next/navigation"; 
@@ -348,15 +353,17 @@ function PlasmicDashboard__RenderFunc(props: {
                   data-plasmic-override={overrides.textbox1}
                   className={classNames(projectcss.all, sty.textbox1)}
                 >
-                  <div
+                  <input 
+                  type="text"
+                  placeholder="Search..."
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
                       sty.text__s9T8Z
                     )}
-                  >
-                    {"Search..."}
-                  </div>
+                  
+                    // {"Search..."}
+                  />
                   <SearchIcon
                     className={classNames(projectcss.all, sty.svg__htox4)}
                     role={"img"}
@@ -428,6 +435,7 @@ function PlasmicDashboard__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.sidebarMenu3)}
                 >
                   <div
+                  onClick={() => setActiveSection("MarketnCompetitive")}
                     data-plasmic-name={"frame3"}
                     data-plasmic-override={overrides.frame3}
                     className={classNames(projectcss.all, sty.frame3)}
@@ -467,6 +475,7 @@ function PlasmicDashboard__RenderFunc(props: {
                     />
                   </div>
                   <div
+                  onClick={() => setActiveSection("CustomerInsights")}
                     data-plasmic-name={"frame5"}
                     data-plasmic-override={overrides.frame5}
                     className={classNames(projectcss.all, sty.frame5)}
@@ -488,6 +497,7 @@ function PlasmicDashboard__RenderFunc(props: {
                     />
                   </div>
                   <div
+                  onClick={() => setActiveSection("FinancialPerformance")}
                     data-plasmic-name={"frame6"}
                     data-plasmic-override={overrides.frame6}
                     className={classNames(projectcss.all, sty.frame6)}
@@ -507,6 +517,7 @@ function PlasmicDashboard__RenderFunc(props: {
                     />
                   </div>
                   <div
+                  onClick={() => setActiveSection("RiskIdentification")}
                     data-plasmic-name={"frame7"}
                     data-plasmic-override={overrides.frame7}
                     className={classNames(projectcss.all, sty.frame7)}
@@ -528,6 +539,7 @@ function PlasmicDashboard__RenderFunc(props: {
                   
                 </div>
                 <div
+                onClick={() => setActiveSection("StrategicPlanning")}
                 data-plasmic-name={"frame43"}
                 data-plasmic-override={overrides.frame43}
                 className={classNames(projectcss.all, sty.frame43)}
@@ -562,6 +574,11 @@ function PlasmicDashboard__RenderFunc(props: {
                 {activeSection === "Dashboard" && <DashboardSection />}
                 {activeSection === "Dinaggregation" && <PlasmicDinaggregation />}
                 {activeSection === "BusinessProcess" && <PlasmicWorkflows />}
+                {activeSection === "CustomerInsights" && <PlasmicCustomerinsights />}
+                {activeSection === "FinancialPerformance" && <PlasmicFinancialperformance />}
+                {activeSection === "MarketnCompetitive" && <PlasmicMarketncompetitive />}
+                {activeSection === "RiskIdentification" && <PlasmicRiskidentification />}
+                {activeSection === "StrategicPlanning" && <PlasmicDecisionsupport />}
               </div>
 
             </div>

@@ -1,4 +1,4 @@
-.root {
+/* .root {
   display: grid;
   flex-direction: column;
   position: relative;
@@ -20,7 +20,14 @@
 }
 .root > * {
   grid-column: 4;
+} */
+
+.dynamicSection {
+  position: relative; 
+  top: 100px; 
+  left: 300px;
 }
+
 .wireframe13 {
   background: rgba(255, 255, 255, 1);
   width: 100vw;
