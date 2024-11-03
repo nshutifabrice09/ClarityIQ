@@ -13,6 +13,7 @@
 
 import * as React from "react";
 
+import { useNavigate } from "react-router-dom"; 
 
 import {
   Flex as Flex__,
@@ -96,7 +97,7 @@ import PlasmicCustomerinsights from "./mcustomerinsights";
 import PlasmicFinancialperformance from "./mfinancialperformance";
 import PlasmicMarketncompetitive from "./mmarketncompetitive";
 import PlasmicRiskidentification from "./mriskidentification";
-import PlasmicDecisionsupport from "./PlasmicDecisionsupport";
+import PlasmicDecisionsupport from "./mdecisionsupport";
 //import { useNavigation } from "./NavigationContext";
 //import Thirdfinancialperformance from "../../Thirdfinancialperformance";
 //import { useRouter } from "next/navigation"; 
@@ -290,6 +291,8 @@ function PlasmicDashboard__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const navigate = useNavigate(); 
+
   const [activeSection, setActiveSection] = React.useState<string>("Dashboard"); 
   //const router = useRouter();
   return (
@@ -337,7 +340,8 @@ function PlasmicDashboard__RenderFunc(props: {
                   role={"img"}
                 />
 
-                <div
+                <div   
+                onClick={() => navigate("/signin")}
                   data-plasmic-name={"avatar1"}
                   data-plasmic-override={overrides.avatar1}
                   className={classNames(projectcss.all, sty.avatar1)}
@@ -579,6 +583,7 @@ function PlasmicDashboard__RenderFunc(props: {
                 {activeSection === "MarketnCompetitive" && <PlasmicMarketncompetitive />}
                 {activeSection === "RiskIdentification" && <PlasmicRiskidentification />}
                 {activeSection === "StrategicPlanning" && <PlasmicDecisionsupport />}
+                {/* {activeSection === "SearchListing" && <PlasmicSearchListing />} */}
               </div>
 
             </div>

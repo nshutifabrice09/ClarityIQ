@@ -337,12 +337,20 @@
   line-height: 22px;
   position: absolute;
   top: 410px;
+  
   left: 3px;
   width: 333px;
   height: 27px;
   transform: skew(-0.057295760414500616deg, 0deg)
     translate(-0.013999999999999346px, -0.1369999999999436px);
   transform-origin: top left;
+  cursor: pointer; 
+  color: black;
+}
+
+
+text__fwQI:hover {
+  color: #a083b1;
 }
 .svg__jsZnp {
   object-fit: cover;

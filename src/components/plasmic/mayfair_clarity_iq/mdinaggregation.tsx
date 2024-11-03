@@ -249,6 +249,7 @@ function PlasmicDinaggregation__RenderFunc(props: {
                 </div>
 
                 
+              <div className={sty.search2}>
               <div
                 data-plasmic-name={"textbox2"}
                 data-plasmic-override={overrides.textbox2}
@@ -256,7 +257,9 @@ function PlasmicDinaggregation__RenderFunc(props: {
               >
 
                 
-                <div
+                <input 
+                type="text"
+                placeholder="Search"
                   data-plasmic-name={"search"}
                   data-plasmic-override={overrides.search}
                   className={classNames(
@@ -264,9 +267,8 @@ function PlasmicDinaggregation__RenderFunc(props: {
                     projectcss.__wab_text,
                     sty.search
                   )}
-                >
-                  {"Search            "}
-                </div>
+                />
+                  
                 <Search2Icon
                   className={classNames(projectcss.all, sty.svg__xk6Mg)}
                   role={"img"}
@@ -309,6 +311,7 @@ function PlasmicDinaggregation__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.svg__yD4Dh)}
                   role={"img"}
                 />
+              </div>
               </div>
               <div
                 data-plasmic-name={"button14"}
